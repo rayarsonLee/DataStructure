@@ -55,3 +55,13 @@ public:
     auto traverse() -> void;
 };
 
+/*
+ 练习
+ https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/
+ https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
+ https://leetcode.cn/problems/remove-element/
+ https://leetcode.cn/problems/move-zeroes/
+ https://leetcode.cn/problems/reverse-string/
+ https://leetcode.cn/problems/remove-duplicates-from-sorted-list/
+ https://leetcode.cn/problems/longest-palindromic-substring/
+ */
