@@ -65,7 +65,7 @@ public:
             if (curNum < minVal) {
                 minVal = curNum;
             }
-        } 
+        }
         return minVal;
     }
     // O(1)
@@ -259,19 +259,19 @@ public:
  https://leetcode.cn/problems/longest-palindromic-substring/
  */
 
-int main() {
-    int *nums = new int[10];
-    
-    for (int i = 0; i < 5; i += 1) {
-        nums[i] = i;
-    }
-    for (int i = 5; i < 10; i += 1) {
-        nums[i] = i - 5;
-    }
-
-    auto v = Vector(nums, 0, 9);
-    v.sort();
-    v.traverse();
-    v.uniquify();
-    v.traverse();
-}
+//int main() {
+//    int *nums = new int[10];
+//    
+//    for (int i = 0; i < 5; i += 1) {
+//        nums[i] = i;
+//    }
+//    for (int i = 5; i < 10; i += 1) {
+//        nums[i] = i - 5;
+//    }
+//
+//    auto v = Vector(nums, 0, 9);
+//    v.sort();
+//    v.traverse();
+//    v.uniquify();
+//    v.traverse();
+//}
